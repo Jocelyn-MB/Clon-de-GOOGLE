@@ -17,4 +17,4 @@ Sección Footer: Con enlaces útiles y una presentación ordenada.
 Mi principal objetivo fue aprender y dominar HTML y CSS. A través de este proyecto, practiqué y adquirí una sólida comprensión de estas tecnologías. Fue mi primera inmersión en el desarrollo web, lo que me abrió el camino a futuros logros tecnológicos.
 
 ## Aquí puedes viaualizar mi proyecto
-* [clon-google](https://clon-google-jocelyn.netlify.app/)
+* [clon-google](https://clon-google-magali.netlify.app/)
