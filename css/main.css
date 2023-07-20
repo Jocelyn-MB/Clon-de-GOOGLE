@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    overflow-x: hidden;
+}
+html, body {
+    height: 100%;
+}
+header{
+    
+    width: 100%;
+    height: 60px;
+    
+}
+header nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   justify-content:flex-end;
+   align-items: center;
+   
+}
+header nav .nav-right-section{
+    
+    width: 30px;
+    /*eliminar puntitos*/
+    list-style: none;
+    /*propidedad flex- responsive*/
+    display: flex;
+    justify-content: right;
+    /*centrado verticalmente*/
+    align-items: center;
+    
+}
+
+
+a{
+    /* remueve lineas de abajo*/
+    text-decoration: none;
+}
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgb(28, 27, 27);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul.nav-right-section li.menu a {
+
+  background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+  width: 32px;
+  height: 32px;
+  /*Remueve lineas de abajo*/
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  
+}
+header nav ul.nav-right-section li img {
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  border-radius: 30px;
+}
+nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
+
+  
+/*********************************************************************
+/**********************************************************************
+/********** BUSCADOR - MAIN*********/
+main{
+  
+    margin-top: 0;
+    margin-bottom: 100px;
+    text-align: center;
+}
+/*section logo  GOOGLE*/
+main .main-logo{
+    
+    width: 500px;
+    margin: 0 auto;
+    /*no margin top and bottom*/
+    /*right and left se ajustan auto*/
+    margin-bottom: 20px;
+
+}
+main .main-logo img{
+    height: 95px;
+}
+main .main-input{
+
+width: 580px;
+margin: 0 auto;
+margin-bottom: 33px;
+
+}
+
+main .main-input-container{
+   
+    border:1px solid #DADCE0;
+    width: 580px;
+    height: 43px;
+    border-radius:100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+main .main-input input{
+   
+    border: none;
+    height: 41px;
+    outline: none;
+    width: 425px;
+    border-radius: 0;
+    
+    
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    padding-left: 5%;
+    height: 15px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+   
+}
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    padding-left: 6%;
+    height: 18px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    padding-left: 8%;
+    height: 16px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+   
+}
+main .main-input-container:hover{
+
+    box-shadow: 0 1px 6px 0px #DDDDDD;
+
+}
+/*****************************************************
+************************************************************
+*********SECCIÓN DE  LOS BOTONES***************************/
+main .main-buttons{
+    
+    width: 530px;
+    margin: 0 auto ;
+}
+main .main-buttons div{
+    display: inline-block;
+
+}
+main .main-buttons button{
+    border: 0;
+    background-color: #F8F9FA;
+    font-size: 14px;
+    color:#3F3F42;
+    height: 35px;
+    
+    /*redondeo de los bordes de los botones*/
+    border-radius: 4px;
+    /*margen interno*/
+    padding:0 15px;
+    /*margen entre los botones*/
+    margin-right: 10px;
+}
+main .main-idioma{
+    margin-top: 35px;
+}
+main .main-idioma a{
+    color: #1201A7;
+}
+/* efecto en los botones*/
+main .main-buttons button:hover{
+   
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 0.5px 1px 0 rgba(135, 134, 134, 0.8);
+    cursor: pointer;
+
+}
+/************************************************
+***********************************************
+**********FOOTER*******************************/
+footer{
+    margin-top: auto;
+}
+
+footer .footer-right-section1{
+    background-color: #F2F2F2;
+    width: auto;
+    height: 47px;
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    border-bottom:1px solid #DADCE0;
+    
+    
+  
+
+}
+footer .footer-right-section1 a{
+    color: #6D767F;
+    margin-left: 32px;
+    font-size: 14px;
+    
+   
+
+}
+
+footer .container {
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 0 ;
+    
+  }
+footer .footer-right-section2{
+   
+    width:auto;
+    /*eliminar puntitos*/
+    list-style: none;
+    /*propidedad flex- responsive*/
+    display: flex;
+    justify-content:left;
+    /*centrado verticalmente*/
+    align-items:center;
+    
+   
+  
+
+}
+
+footer .footer-right-section3{
+    
+    width: auto;
+    /*eliminar puntitos*/
+    list-style: none;
+    /*propidedad flex- responsive*/
+    display: flex;
+    justify-content:right;
+    /*centrado verticalmente*/
+    align-items:center;
+
+}
+footer  a{
+    margin-right: 32px;
+    color: #6D767F;
+    font-size: 14px;
+    
+}
+/* efecto en la etiqueta <a>*/
+footer .container a:hover,a:focus{
+   
+    text-decoration: underline;
+}
+
+
